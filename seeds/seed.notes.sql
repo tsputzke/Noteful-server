@@ -1,3 +1,5 @@
+TRUNCATE notes RESTART IDENTITY CASCADE;
+
 INSERT INTO notes (note_name, folder_id, content)
 VALUES
   ('Note 1', '1', 'content here'),
